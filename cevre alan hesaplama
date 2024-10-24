@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp5
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int kisa, uzun, cevre, alan;
+            Console.WriteLine("kısa kenar");
+            kisa=Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("uzun kenar");
+            uzun=Convert.ToInt32(Console.ReadLine());
+            alan= kisa*uzun;
+            cevre=2*(uzun+kisa);
+            Console.WriteLine("alan"+alan);
+            Console.WriteLine("cevre"+cevre);
+            Console.ReadKey();
+
+        }
+    }
+}
